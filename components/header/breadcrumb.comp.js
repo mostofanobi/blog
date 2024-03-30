@@ -12,7 +12,7 @@ const Breadcrumb = ({ paths }) => {
             <li key={path}>
               <div className='flex items-center'>
                 <CgFormatSlash className='h-5 w-5 flex-shrink-0 text-gray-300' />
-                <Link href={`/${path}`} className='text-sm font-medium text-gray-500 hover:text-gray-700'>
+                <Link href={`/${path}`} className='text-sm text-gray-500 hover:text-gray-700'>
                   {path}
                 </Link>
               </div>

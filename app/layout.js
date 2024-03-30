@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body suppressHydrationWarning={true} className={`${kumbh.className} bg-gray-100`}>
+      <body suppressHydrationWarning={true} className={`${kumbh.className} bg-gray-50`}>
         <div className='min-h-screen flex flex-col justify-between'>
           <Header />
           <main className='flex-1'>
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
                     </div>
                   </div>
                 </div>
-                <div className='flex-1 h-[200vh]'>{children}</div>
+                <div className='flex-1'>{children}</div>
               </div>
             </div>
           </main>

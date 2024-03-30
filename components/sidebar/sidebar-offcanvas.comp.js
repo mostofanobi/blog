@@ -12,7 +12,7 @@ const SidebarOffcanvas = ({ isOpen, toggle }) => {
     <div
       className={classNames({
         'pointer-events-none': !isOpen,
-        'fixed inset-0 z-50 lg:hidden': true
+        'fixed inset-0 z-[9999] lg:hidden': true
       })}
       role='dialog'
       aria-modal='true'

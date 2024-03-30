@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Collections = () => {
-  return <div className='p-6'>Collections</div>;
+  return <div className='py-6 md:px-6'>Collections</div>;
 };
 
 export default Collections;

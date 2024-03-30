@@ -1,58 +1,27 @@
 import React from 'react';
-import { BsLink45Deg } from 'react-icons/bs';
-import { GoArrowUpRight } from 'react-icons/go';
-
-import Link from 'next/link';
-
-import LowerFooter from './lower-footer.comp';
 
 const Footer = () => {
   return (
-    <footer>
-      {/* <div className='max-w-screen-2xl mx-auto p-6'>
-        <div className='flex justify-between items-center'>
-          <div>
-            <h1 className='text-xl flex items-center gap-2'>
-              Mostofa Nobi{' '}
-              <a href='https://mostofanobi.vercel.app/' target='_blank' className='hover:text-blue-600'>
-                <BsLink45Deg className='translate-y-px' />
-              </a>
-            </h1>
-            <p className='text-xs text-zinc-500 mb-1.5'>Frontend Developer</p>
-            <div className='w-8 h-px bg-black' />
-            <div className='flex gap-4 mt-10'>
+    <footer className='bg-gray-200/50'>
+      <div className='border-t py-4'>
+        <div className='max-w-screen-2xl mx-auto px-6'>
+          <div className='flex flex-col sm:flex-row gap-x-6 gap-y-1 items-center justify-center sm:justify-between text-zinc-500 text-xs'>
+            <p>
+              All rights reserved <span className='text-black'>@{new Date().getFullYear()}</span>
+            </p>
+            <p>
+              Designed & Developed by{' '}
               <a
-                href='https://www.linkedin.com/in/mostofanobi/'
+                href='https://mostofanobi.vercel.app/'
                 target='_blank'
-                className='flex items-center gap-0.5 hover:underline'
+                className='text-black hover:underline hover:text-blue-600'
               >
-                Linkedin
-                <GoArrowUpRight className='translate-y-0.5' />
+                Mostofa Nobi
               </a>
-              <a
-                href='https://github.com/mostofanobi/'
-                target='_blank'
-                className='flex items-center gap-0.5 hover:underline'
-              >
-                Github
-                <GoArrowUpRight className='translate-y-0.5' />
-              </a>
-            </div>
-          </div>
-          <div className='flex gap-8'>
-            <Link href='/demos' className='hover:underline'>
-              Demos
-            </Link>
-            <Link href='/collections' className='hover:underline'>
-              Collections
-            </Link>
-            <Link href='/demos' className='hover:underline'>
-              Gallery
-            </Link>
+            </p>
           </div>
         </div>
-      </div> */}
-      <LowerFooter />
+      </div>
     </footer>
   );
 };
