@@ -43,8 +43,8 @@ const Footer = () => {
             <Link href='/demos' className='hover:underline'>
               Demos
             </Link>
-            <Link href='/demos' className='hover:underline'>
-              Tutorials
+            <Link href='/collections' className='hover:underline'>
+              Collections
             </Link>
             <Link href='/demos' className='hover:underline'>
               Gallery
