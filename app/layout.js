@@ -21,9 +21,9 @@ export default function RootLayout({ children }) {
           <main className='flex-1'>
             <div className='max-w-screen-2xl mx-auto px-6'>
               <div className='flex'>
-                <div className='hidden lg:block'>
+                <div className='hidden md:block'>
                   <div className='h-full'>
-                    <div class='flex w-72 flex-col h-[calc(100vh-64px)] overflow-y-auto py-6 border-r sticky top-16'>
+                    <div className='flex w-64 flex-col h-[calc(100vh-64px)] overflow-y-auto py-6 border-r sticky top-16'>
                       <Sidebar />
                     </div>
                   </div>

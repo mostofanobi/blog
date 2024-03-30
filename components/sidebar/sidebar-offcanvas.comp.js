@@ -24,7 +24,7 @@ const SidebarOffcanvas = ({ isOpen, toggle }) => {
           'opacity-0 pointer-events-none': !isOpen,
           'fixed inset-0 bg-gray-900/80 transition-opacity ease-linear duration-300': true
         })}
-      ></div>
+      />
 
       <div
         className={classNames({

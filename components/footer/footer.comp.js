@@ -8,9 +8,9 @@ import LowerFooter from './lower-footer.comp';
 
 const Footer = () => {
   return (
-    <footer className='border-t'>
-      <div className='max-w-screen-2xl mx-auto p-6'>
-        <div className='flex justify-between items-end'>
+    <footer>
+      {/* <div className='max-w-screen-2xl mx-auto p-6'>
+        <div className='flex justify-between items-center'>
           <div>
             <h1 className='text-xl flex items-center gap-2'>
               Mostofa Nobi{' '}
@@ -51,7 +51,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <LowerFooter />
     </footer>
   );
