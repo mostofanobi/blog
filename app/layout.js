@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
               <div className='flex'>
                 <div className='hidden md:block'>
                   <div className='h-full'>
-                    <div className='flex w-64 flex-col h-[calc(100vh-64px)] overflow-y-auto py-6 border-r sticky top-16'>
+                    <div className='flex w-64 flex-col h-[calc(100vh-4rem)] overflow-y-auto py-6 border-r sticky top-16'>
                       <Sidebar />
                     </div>
                   </div>
