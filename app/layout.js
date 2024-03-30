@@ -23,7 +23,9 @@ export default function RootLayout({ children }) {
               <div className='flex'>
                 <div className='hidden lg:block'>
                   <div className='h-full'>
-                    <Sidebar />
+                    <div class='flex w-72 flex-col h-[calc(100vh-64px)] overflow-y-auto py-6 border-r sticky top-16'>
+                      <Sidebar />
+                    </div>
                   </div>
                 </div>
                 <div className='flex-1 h-[200vh]'>{children}</div>
